@@ -1,18 +1,18 @@
 {
-  "name": "omeka-s-module-ExhibitsList",
+  "name": "omeka-s-module-ExhibitList",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coreytegeler/omeka-s-module-ExhibitsList.git"
+    "url": "git+https://github.com/coreytegeler/omeka-s-module-ExhibitList.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coreytegeler/omeka-s-module-ExhibitsList/issues"
+    "url": "https://github.com/coreytegeler/omeka-s-module-ExhibitList/issues"
   },
-  "homepage": "https://github.com/coreytegeler/omeka-s-module-ExhibitsList#readme",
+  "homepage": "https://github.com/coreytegeler/omeka-s-module-ExhibitList#readme",
   "dependencies": {}
 }

@@ -1,5 +1,5 @@
 <?php
-namespace ExhibitsList\Site\BlockLayout;
+namespace ExhibitList\Site\BlockLayout;
 
 use Zend\Form\Element\Select;
 use Zend\Form\Element\Text;
@@ -12,16 +12,16 @@ use Omeka\Stdlib\ErrorStore;
 use Zend\View\Renderer\PhpRenderer;
 use Zend\ServiceManager\ServiceLocatorInterface;
 
-class ExhibitsList extends AbstractBlockLayout
+class ExhibitList extends AbstractBlockLayout
 {
     public function getLabel()
     {
-        return 'Exhibits List'; // @translate
+        return 'Exhibit List'; // @translate
     }
 
     public function prepareForm(PhpRenderer $view)
     {
-        // $view->headLink()->appendStylesheet($view->assetUrl('css/exhibits-list-admin.css', 'ExhibitsList'));
+        // $view->headLink()->appendStylesheet($view->assetUrl('css/exhibit-list-admin.css', 'ExhibitList'));
     }
 
     public function form(PhpRenderer $view, SiteRepresentation $site,
@@ -34,7 +34,7 @@ class ExhibitsList extends AbstractBlockLayout
     public function render(PhpRenderer $view, SitePageBlockRepresentation $block)
     {
 
-        return $view->partial('common/block-layout/exhibits-list-block', [
+        return $view->partial('common/block-layout/exhibit-list-block', [
             'block' => $block,
         ]);
     }
